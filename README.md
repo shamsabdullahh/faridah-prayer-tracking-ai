@@ -16,7 +16,7 @@ The system detects prayer positions such as **Takbeer**, **Rukoo**, and **Sujood
 
 Watch the system in action:
 
-👉 https://youtube.com/your-link-here
+👉 https://youtu.be/L6XQW_gxwac
 
 This demo shows:
 
