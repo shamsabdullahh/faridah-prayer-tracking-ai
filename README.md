@@ -1,6 +1,6 @@
-# 🕌 Faridah – AI Prayer Tracking System
+# 🕌 Faridah – Real-Time Prayer Tracking System
 
-A real-time AI system that tracks and evaluates Islamic prayer movements using **MediaPipe**, **computer vision**, and **speech recognition**.
+A real-time prayer tracking system that analyzes and evaluates Islamic prayer movements using **MediaPipe**, **computer vision**, and **speech recognition**.
 
 ---
 
@@ -8,7 +8,7 @@ A real-time AI system that tracks and evaluates Islamic prayer movements using *
 
 Faridah is an intelligent system designed to help children learn and perform prayer correctly by tracking their movements and voice in real time.
 
-The system detects prayer positions such as **Takbeer**, **Rukoo**, and **Sujood**, and evaluates the overall performance accuracy of the prayer.
+The system detects key prayer positions such as **Takbeer**, **Standing**, **Rukoo**, and **Sujood**, and evaluates the accuracy of the performed prayer.
 
 ---
 
@@ -42,13 +42,25 @@ This demo shows:
 
 ---
 
+## 📍 Detected Positions
+
+The system detects and classifies the following prayer steps:
+
+* Takbeer
+* Standing
+* Rukoo (Bowing)
+* Sujood (Prostration)
+* Salam (via speech recognition)
+
+---
+
 ## ⚙️ How It Works
 
 1. Captures video using webcam
 2. Uses MediaPipe Pose to detect body landmarks
 3. Analyzes body positions to classify prayer movements
 4. Uses speech recognition to detect Salam
-5. Compares performed steps with correct sequence
+5. Compares performed steps with the correct prayer sequence
 6. Outputs final accuracy score
 
 ---
@@ -86,7 +98,9 @@ This demo shows:
 pip install -r requirements.txt
 ```
 
-2. Run the system:
+2. Make sure your webcam and microphone are enabled.
+
+3. Run the system:
 
 ```bash
 python main.py
@@ -105,10 +119,10 @@ python main.py
 
 ## 🔮 Future Improvements
 
-* Add more precise movement detection
-* Improve accuracy with hybrid AI models
+* Improve movement detection accuracy
+* Add more detailed feedback per prayer step
 * Build a mobile application version
-* Integrate with Faridah mobile app
+* Integrate with the Faridah mobile app
 
 ---
 
@@ -116,3 +130,7 @@ python main.py
 
 **Shams Abdullah Alarifi**
 AI Engineer | Machine Learning | Computer Vision
+
+---
+
+## ⭐ If you like this project, consider giving it a star!
